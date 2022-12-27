@@ -1,0 +1,15 @@
+*.iml
+/mobile/Lostie/.gradle
+/mobile/Lostie/local.properties
+/mobile/Lostie/.idea/caches
+/mobile/Lostie/.idea/libraries
+/mobile/Lostie/.idea/modules.xml
+/mobile/Lostie/.idea/workspace.xml
+/mobile/Lostie/.idea/navEditor.xml
+/mobile/Lostie/.idea/assetWizardSettings.xml
+/mobile/Lostie/.DS_Store
+/mobile/Lostie/build
+/mobile/Lostie/captures
+/mobile/Lostie/.externalNativeBuild
+/mobile/Lostie/.cxx
+/mobile/Lostie/local.properties

@@ -1,0 +1,21 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        // for ymaps
+        mavenCentral()
+        maven {
+            url "http://maven.google.com/"
+            allowInsecureProtocol = true
+        }
+    }
+}
+rootProject.name = "Lostie"
+include ':app'
