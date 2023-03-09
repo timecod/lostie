@@ -13,7 +13,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void continueMenu(View v){
+
+    public void continueMenu(View v) {
         Intent intent = new Intent(this, MainMenuActivity.class);
         startActivity(intent);
-}}
+    }
+
+    public void toMapActivity(View v){
+        Intent intent = new Intent(this, MapActivity.class);
+        startActivity(intent);
+    }
+}
