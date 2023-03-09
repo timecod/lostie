@@ -34,6 +34,9 @@
             android:name=".MainMenuActivity"
             android:exported="false" />
         <activity
+            android:name=".BluetoothActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true" >
             <intent-filter>

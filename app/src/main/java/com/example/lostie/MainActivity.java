@@ -16,4 +16,9 @@ public class MainActivity extends AppCompatActivity {
     public void continueMenu(View v){
         Intent intent = new Intent(this, MainMenuActivity.class);
         startActivity(intent);
-}}
+    }
+    public void toBluetoothLayout(View v){
+        Intent intent = new Intent(this, BluetoothActivity.class);
+        startActivity(intent);
+    }
+}
