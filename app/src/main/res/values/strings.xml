@@ -15,4 +15,5 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="title_activity_maps">MapsActivity</string>
     <string name="returnMenu">returnBack</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoidGltZWNvZCIsImEiOiJjbGM0bmxjOGcwZG12M3BwNm1qZXFoN2s5In0.kwd4lee3MylTz2R0wDv6Wg</string>
 </resources>
