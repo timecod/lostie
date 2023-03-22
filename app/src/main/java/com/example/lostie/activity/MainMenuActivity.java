@@ -1,10 +1,13 @@
-package com.example.lostie;
+package com.example.lostie.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import com.example.lostie.R;
+import com.example.lostie.object1;
 
 public class MainMenuActivity extends AppCompatActivity {
 

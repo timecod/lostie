@@ -21,13 +21,13 @@
             android:name=".object1"
             android:exported="false" />
         <activity
-            android:name=".MainMenuActivity"
+            android:name=".activity.MainMenuActivity"
             android:exported="false" />
         <activity
-            android:name=".MapActivity"
+            android:name=".activity.MapActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

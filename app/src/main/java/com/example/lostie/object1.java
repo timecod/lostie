@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
 
+import com.example.lostie.activity.MainMenuActivity;
+
 public class object1 extends AppCompatActivity {
 
     @Override
