@@ -15,4 +15,7 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="title_activity_maps">MapsActivity</string>
     <string name="returnMenu">returnBack</string>
+    <string name="title_activity_objectfinall">objectfinall</string>
+    <string name="change">Изменить</string>
+    <string name="delete">Удалить</string>
 </resources>

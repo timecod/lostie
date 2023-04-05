@@ -11,7 +11,7 @@
         android:id="@+id/frameLayout"
         android:layout_width="389dp"
         android:layout_height="179dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="100dp"
         android:background="@color/frame"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,6 +23,7 @@
             android:layout_height="126dp"
             android:translationX="170dp"
             android:translationY="20dp"
+            android:contentDescription="@string/app_name"
             app:srcCompat="@drawable/watch" />
 
         <TextView
@@ -40,62 +41,93 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="572dp"
+        android:layout_marginBottom="16dp"
         android:fontFamily="@font/permanent_marker"
         android:text="@string/app_name"
         android:textColor="@color/white"
         android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="132dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="50dp"
+        android:backgroundTint="@color/background"
         android:text="@string/find"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
         app:cornerRadius="35dp"
-        app:layout_constraintTop_toBottomOf="@+id/frameLayout"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout"
+        app:strokeColor="@color/frame"
+        app:strokeWidth="3dp" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="300dp"
         android:layout_height="60dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="210dp"
-        android:layout_marginEnd="50dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/background"
         android:text="@string/last_member"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
         app:cornerRadius="35dp"
-        app:layout_constraintTop_toBottomOf="@+id/frameLayout"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:strokeColor="@color/frame"
+        app:strokeWidth="3dp" />
+
 
     <FrameLayout
-        android:layout_width="411dp"
-        android:layout_height="58dp"
-        android:background="@color/viget_layout"
-        app:layout_constraintBottom_toTopOf="@+id/frameLayout"
+        android:layout_width="418dp"
+        android:layout_height="66dp"
+        android:background="@color/action_bar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageButton
-            android:id="@+id/returnButton"
-            android:layout_width="58dp"
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:background="@color/viget_layout"
-            android:contentDescription="@string/returnMenu"
+            android:backgroundTint="@color/action_bar"
+            android:contentDescription="@string/app_name"
             android:onClick="returnMenu"
             app:srcCompat="@android:drawable/ic_menu_revert" />
 
     </FrameLayout>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="12dp"
+        app:cornerRadius="35dp"
+        android:text="@string/change"
+        app:strokeColor="@color/frame"
+        app:strokeWidth="3dp"
+        android:backgroundTint="@color/background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="12dp"
+        app:cornerRadius="35dp"
+        android:text="@string/delete"
+        app:strokeColor="@color/frame"
+        app:strokeWidth="3dp"
+        android:textColor="@color/del"
+        android:backgroundTint="@color/background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,4 +10,6 @@
     <color name="background">#0d0b38</color>
     <color name="frame">#365CC6</color>
     <color name="viget_layout">#8CAAE8</color>
+    <color name="del">#ff1100</color>
+    <color name="action_bar">#5490de</color>
 </resources>
