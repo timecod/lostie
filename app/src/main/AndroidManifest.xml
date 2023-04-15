@@ -24,7 +24,7 @@
             android:name=".activity.MainMenuActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.MapActivity"
+            android:name=".map.MapActivity"
             android:exported="false" />
         <activity
             android:name=".activity.MainActivity"

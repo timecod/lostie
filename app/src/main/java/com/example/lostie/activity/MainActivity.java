@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.lostie.R;
+import com.example.lostie.map.MapActivity;
 
 public class MainActivity extends AppCompatActivity {
 

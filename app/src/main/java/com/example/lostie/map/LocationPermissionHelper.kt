@@ -1,4 +1,4 @@
-package com.example.lostie.utils
+package com.example.lostie.map
 
 import android.app.Activity
 import android.widget.Toast
