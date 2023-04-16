@@ -3,6 +3,7 @@ package com.example.lostie.database;
 
 
 
+import androidx.annotation.NonNull;
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
@@ -23,4 +24,5 @@ public class Object {
 
     @ColumnInfo(name = "longitude")
     public float longitude;
+
 }

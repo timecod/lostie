@@ -62,12 +62,25 @@
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="375dp"
-        android:layout_height="99dp"
-        android:layout_marginBottom="96dp"
-        android:text="To map"
+        android:layout_width="93dp"
+        android:layout_height="89dp"
+        android:layout_marginBottom="104dp"
         android:onClick="toMapActivity"
+        android:text="To map"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.223"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="98dp"
+        android:layout_height="89dp"
+        android:text="Database"
+        android:onClick="toDatabaseCheck"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button5"
+        app:layout_constraintTop_toTopOf="@+id/button5" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
